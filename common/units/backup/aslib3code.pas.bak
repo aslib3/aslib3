@@ -1,0 +1,33 @@
+unit aslib3code;
+
+interface
+
+
+
+function CodeString(aStr:String;aPassword:String='');
+function DecodeString(aStr:String;aPassword:String='');
+function SetDefaultPassword(aPassword:String='');
+
+implementation
+var
+_DefaultPassword: String;
+
+function CodeString(aStr:String;aPassword:String='');
+//
+end;
+
+function DecodeString(aStr:String;aPassword:String='');
+//
+end;
+
+function SetDefaultPassword(aPassword:String='');
+begin
+//
+end
+
+initialization
+ SetDefaultPassword('YouHaveToChangeIt');
+end.
+
+
+

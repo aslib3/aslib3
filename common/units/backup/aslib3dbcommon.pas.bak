@@ -1,0 +1,24 @@
+unit aslib3dbcommon;
+
+interface
+
+type
+ TEnvStyle=(esUnixStyle,esWindowsStyle);
+ TDbType=(dtPostgreSQL,dtMicrosoftSQL,dtSQLite);
+ TDBConnectionData=record
+                    DbType: TDbType;
+                    ConnectionString: String;
+                    UserName: String;
+                    Password: String;
+                    Server: String;
+                    Port: Word;
+                    DatabaseName: String;
+                   end;
+
+
+implementation
+
+end.
+
+
+
